@@ -10,8 +10,7 @@ import React from "react";
 export default function App() {
   async function openWpp() {
     await Linking.openURL(
-      "https://wa.me/553588141402?text=Seguinte%20forma%3A%0A%0A%2Fhygia%20sua%20dúvida"
-      // "https://wa.me/553588141402?text=Para%20conversar%20com%20o%20Hygia%20Bot%20basta%20enviar%20uma%20mensagem%20da%20seguinte%20forma%3A%0A%0A%2Fhygia%20sua%20dúvida"
+      "https://wa.me/553588141402?text=Para%20conversar%20com%20o%20Hygia%20Bot%20basta%20enviar%20uma%20mensagem%20da%20seguinte%20forma%3A%0A%0A%2Fhygia%20sua%20d%C3%BAvida"
     );
   }
 
